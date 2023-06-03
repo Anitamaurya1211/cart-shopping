@@ -12,12 +12,12 @@ header{
     grid-template-columns: 1fr 50px;
     margin-top: 50px;
 }
-header .Shopping img{
+header .Shopping {
     position: relative;
     text-align: right;
 }
 
-header.Shopping span{
+.quantity{
     background-color: red;
     border-radius: 50%;
     display: flex;
@@ -61,7 +61,7 @@ header.Shopping span{
 .card{
     position:fixed;
     top:0;
-    left:calc(100% - 500px);
+    left:100%;
     width: 500px;
     background-color: #453E3B;
     height: 100vh;
